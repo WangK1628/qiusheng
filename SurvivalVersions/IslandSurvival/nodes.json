@@ -1,0 +1,7 @@
+{
+  "nodes": [
+    {"id": "beach", "name": "南岸海滩", "dangerLevel": 1},
+    {"id": "forest", "name": "密林边缘", "dangerLevel": 2},
+    {"id": "cave", "name": "潮汐洞穴", "dangerLevel": 3}
+  ]
+}

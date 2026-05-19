@@ -1,0 +1,22 @@
+{
+  "endings": [
+    {
+      "id": "ending_safe_camp",
+      "name": "普通结局：抵达安全区",
+      "requirements": ["reach:toll_station", "complete:ch3_first_safe_camp"],
+      "description": "你与三轮车一起进入首个安全营地，暂时活了下来。"
+    },
+    {
+      "id": "ending_mobile_base",
+      "name": "进阶结局：移动基地雏形",
+      "requirements": ["upgrade:vehicle_tier_2", "event_success:bandit_roadblock", "resource:fuel>=20"],
+      "description": "你把车辆改成可长期驻留的移动据点，开始反向探索废土。"
+    },
+    {
+      "id": "ending_truth_signal",
+      "name": "隐藏结局：灾变讯号",
+      "requirements": ["collect:map_fragment>=3", "event_success:hidden_cache", "chapter_clear:ch2_blood_service_area"],
+      "description": "你拼出旧世界电台坐标，发现灾变并非自然发生。"
+    }
+  ]
+}

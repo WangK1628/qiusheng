@@ -1,0 +1,27 @@
+{
+  "chapters": [
+    {
+      "id": "ch1_awakening",
+      "title": "灰烬公路",
+      "summary": "你在废弃高架下醒来，三轮车是唯一资产。",
+      "goal": "收集基础资源并修复三轮车",
+      "entryNode": "gas_station"
+    },
+    {
+      "id": "ch2_blood_service_area",
+      "title": "血迹服务区",
+      "summary": "服务区看似平静，夜晚却有兽群与劫匪活动。",
+      "goal": "升级车辆并守住夜袭",
+      "entryNode": "service_area"
+    },
+    {
+      "id": "ch3_first_safe_camp",
+      "title": "第一营地",
+      "summary": "你到达幸存者营地，开始选择独行还是联合。",
+      "goal": "抵达安全营地并完成结局分支",
+      "entryNode": "toll_station"
+    }
+  ],
+  "openingNarration": "如果世界真的结束了，方向盘就是你的家。",
+  "tone": "硬核求生、资源焦虑、风险抉择"
+}

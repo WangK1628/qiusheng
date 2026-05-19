@@ -1,0 +1,6 @@
+{
+  "recipes": [
+    {"id": "stone_axe", "name": "石斧", "materials": {"wood": 2, "stone": 2, "vine": 1}},
+    {"id": "rain_collector", "name": "雨水收集器", "materials": {"wood": 4, "vine": 3}}
+  ]
+}

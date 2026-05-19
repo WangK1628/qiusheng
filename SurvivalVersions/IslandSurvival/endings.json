@@ -1,0 +1,6 @@
+{
+  "endings": [
+    {"id": "is_escape", "name": "逃离结局", "requirements": ["build:raft", "send:signal_fire"], "description": "你离开荒岛，故事暂告一段落。"},
+    {"id": "is_settle", "name": "定居结局", "requirements": ["build:permanent_camp", "days_survived>=30"], "description": "你决定留下并建立稳定岛屿据点。"}
+  ]
+}

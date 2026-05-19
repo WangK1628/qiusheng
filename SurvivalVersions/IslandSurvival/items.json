@@ -1,0 +1,9 @@
+{
+  "items": [
+    {"id": "wood", "name": "木材", "type": "resource"},
+    {"id": "stone", "name": "石头", "type": "resource"},
+    {"id": "vine", "name": "藤蔓", "type": "resource"},
+    {"id": "fresh_water", "name": "淡水", "type": "consumable"},
+    {"id": "coconut", "name": "椰子", "type": "consumable"}
+  ]
+}
