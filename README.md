@@ -1,49 +1,37 @@
 # 无限求生 (Infinite Survival)
 
-一个 **斜 45 度俯视角** 的单机求生游戏框架。
+一个 **斜 45 度俯视角** 的单机求生游戏框架，采用 **通用底层 + 版本包配置** 的研发方式。
 
-核心理念：
-- 主程序是通用求生引擎。
-- 每个“求生世界”通过独立版本包配置实现。
-- 先做 `公路求生` Demo，再逐步扩展荒岛/末日城市/冰封等版本。
+## 项目目标
 
-## 当前仓库内容
+- 用统一 GameCore 支撑多个求生世界。
+- 每个版本通过 JSON 数据包定义玩法差异。
+- 先交付 `RoadSurvival` 的最小可玩闭环（MVP）。
 
-- `Docs/PROJECT_PLAN.md`：项目规划与开发路线图。
-- `GameCore/`：通用底层系统模块清单（占位）。
-- `SurvivalVersions/`：版本包配置示例（Road/Island）。
+## 当前实现（仓库层）
 
-## 第一版 Demo（MVP）目标
+- `Docs/PROJECT_PLAN.md`：阶段化路线图与里程碑。
+- `GameCore/module_manifest.json`：核心系统模块清单。
+- `SurvivalVersions/`：Road/Island 两个版本包配置。
+- `tools/validate_versions.py`：版本数据一致性校验脚本。
+- `schemas/`：JSON Schema 草案（供后续编辑器/CI集成）。
 
-- 1 个可控角色（俯视角移动 + 交互）
-- 1 辆可升级三轮车
-- 3 个节点地图（加油站/服务区/收费站）
-- 5 种基础资源
-- 10 个随机事件
-- 1 个结局（抵达首个安全营地）
+## RoadSurvival 的 MVP 数据门槛
 
-## 目录结构
+- >= 5 个基础物品
+- >= 3 个地图节点
+- >= 10 条随机事件
+- 配方材料必须都能在物品表中找到
 
-```text
-Docs/
-  PROJECT_PLAN.md
+## 快速校验
 
-GameCore/
-  module_manifest.json
-
-SurvivalVersions/
-  RoadSurvival/
-    config.json
-    items.json
-    recipes.json
-    events.json
-    nodes.json
-  IslandSurvival/
-    config.json
+```bash
+python3 tools/validate_versions.py
 ```
 
-## 后续建议
+## 推荐下一步
 
-1. 用 Unity 2022/2023 LTS 初始化工程。
-2. 先实现 GameCore：角色控制、背包、采集、事件、存档。
-3. 用 `RoadSurvival` 配置驱动出首个可玩闭环。
+1. 初始化 Unity 2022/2023 LTS 工程。
+2. 完成 `VersionLoader`（读取 `SurvivalVersions/*`）。
+3. 接入事件、物品、配方到最小可玩循环。
+4. 在 CI 中加入 `python3 tools/validate_versions.py`。

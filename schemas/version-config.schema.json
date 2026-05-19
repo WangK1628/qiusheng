@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://inf-survival.local/schema/version-config.schema.json",
+  "title": "Survival Version Config",
+  "type": "object",
+  "required": [
+    "versionId",
+    "versionName",
+    "baseType",
+    "survivalStats",
+    "dangerTypes",
+    "victoryCondition",
+    "difficulty"
+  ],
+  "properties": {
+    "versionId": {"type": "string", "minLength": 1},
+    "versionName": {"type": "string", "minLength": 1},
+    "baseType": {"type": "string", "enum": ["Vehicle", "Camp", "Stronghold", "Train"]},
+    "survivalStats": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 3,
+      "uniqueItems": true
+    },
+    "dangerTypes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "victoryCondition": {"type": "string", "minLength": 1},
+    "difficulty": {"type": "integer", "minimum": 1, "maximum": 5}
+  },
+  "additionalProperties": false
+}
