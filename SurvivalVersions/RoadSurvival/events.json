@@ -1,0 +1,14 @@
+{
+  "events": [
+    {"id": "abandoned_car", "title": "废弃车辆", "description": "路边有一辆废弃车辆，可能有可用零件。", "options": ["搜索", "离开"]},
+    {"id": "night_beast", "title": "夜晚兽群", "description": "夜色降临，远处传来兽吼。", "options": ["加速离开", "原地防守"]},
+    {"id": "roadside_help", "title": "路边求救", "description": "一名幸存者示意停车求助。", "options": ["停车救助", "保持距离", "直接离开"]},
+    {"id": "fuel_leak", "title": "油箱渗漏", "description": "车辆油箱出现渗漏，燃油持续下降。", "options": ["立即修理", "坚持前进"]},
+    {"id": "bandit_roadblock", "title": "劫匪路障", "description": "前方路障后疑似有武装劫匪埋伏。", "options": ["强行突破", "绕路", "下车侦查"]},
+    {"id": "merchant_camp", "title": "商人营地", "description": "一处临时营地挂着交易旗帜。", "options": ["交易", "侦查后离开"]},
+    {"id": "collapsed_bridge", "title": "坍塌大桥", "description": "主路桥梁坍塌，需要临时决策。", "options": ["修复便道", "消耗燃油绕行"]},
+    {"id": "acid_rain", "title": "酸雨来袭", "description": "天空骤变，酸雨可能损伤车体。", "options": ["搭建临时遮蔽", "加速冲过"]},
+    {"id": "hidden_cache", "title": "隐藏补给箱", "description": "路牌背后发现埋藏补给的痕迹。", "options": ["挖掘", "标记后离开"]},
+    {"id": "mutant_hunt", "title": "变异兽狩猎", "description": "前方出现单独游荡的变异兽。", "options": ["主动狩猎", "潜行绕开"]}
+  ]
+}

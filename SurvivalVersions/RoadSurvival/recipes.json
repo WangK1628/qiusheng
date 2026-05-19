@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "id": "improvised_spear",
+      "name": "简易长矛",
+      "materials": {"wood": 2, "metal_scrap": 1}
+    },
+    {
+      "id": "vehicle_repair_kit",
+      "name": "车辆维修包",
+      "materials": {"metal_scrap": 3, "fuel": 1}
+    }
+  ]
+}

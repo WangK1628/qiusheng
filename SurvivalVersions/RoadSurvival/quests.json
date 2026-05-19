@@ -1,0 +1,25 @@
+{
+  "quests": [
+    {
+      "id": "q_fix_tricycle",
+      "chapterId": "ch1_awakening",
+      "title": "修好它",
+      "description": "收集木材、铁片和燃油，修复破旧三轮车。",
+      "objectives": ["collect:wood:4", "collect:metal_scrap:3", "collect:fuel:2", "craft:vehicle_repair_kit:1"]
+    },
+    {
+      "id": "q_survive_night",
+      "chapterId": "ch2_blood_service_area",
+      "title": "撑过夜袭",
+      "description": "在服务区守住一波兽群并保持车辆耐久。",
+      "objectives": ["event:night_beast:complete", "vehicle_durability>=40"]
+    },
+    {
+      "id": "q_reach_camp",
+      "chapterId": "ch3_first_safe_camp",
+      "title": "抵达第一营地",
+      "description": "穿越收费站，确保人物状态可生存。",
+      "objectives": ["reach:toll_station", "stat:hunger<80", "stat:thirst<80"]
+    }
+  ]
+}

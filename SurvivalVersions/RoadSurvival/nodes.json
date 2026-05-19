@@ -1,0 +1,7 @@
+{
+  "nodes": [
+    {"id": "gas_station", "name": "废弃加油站", "dangerLevel": 1},
+    {"id": "service_area", "name": "公路服务区", "dangerLevel": 2},
+    {"id": "toll_station", "name": "高速收费站", "dangerLevel": 3}
+  ]
+}

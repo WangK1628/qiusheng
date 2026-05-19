@@ -1,0 +1,9 @@
+{
+  "versionId": "RoadSurvival",
+  "versionName": "公路求生",
+  "baseType": "Vehicle",
+  "survivalStats": ["Health", "Hunger", "Thirst", "VehicleFuel", "VehicleDurability"],
+  "dangerTypes": ["Bandit", "MutantBeast", "HeavyRain", "RoadBlock"],
+  "victoryCondition": "ReachFirstSafeCamp",
+  "difficulty": 3
+}

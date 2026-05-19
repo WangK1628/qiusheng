@@ -1,0 +1,8 @@
+{
+  "chapters": [
+    {"id": "is_ch1", "title": "海滩醒来", "summary": "你在失事后漂到荒岛南岸。", "goal": "建立火堆与基础营地", "entryNode": "beach"},
+    {"id": "is_ch2", "title": "潮汐洞穴", "summary": "潮汐规律改变，洞穴深处有旧文明痕迹。", "goal": "探索洞穴并带回线索", "entryNode": "cave"}
+  ],
+  "openingNarration": "海浪会带来希望，也会带来代价。",
+  "tone": "孤岛生存、探索与未知"
+}
