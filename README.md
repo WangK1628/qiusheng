@@ -44,3 +44,16 @@ python3 tools/validate_versions.py
 2. 实现 `VersionLoader`：读取并缓存版本包内容。
 3. 接入任务系统（quests）和 NPC 交互数据。
 4. 将校验脚本纳入 CI。
+
+
+## 本地可运行原型
+
+已提供命令行可运行 Demo（配置驱动）：
+
+```bash
+python3 run_game.py
+```
+
+说明：
+- `RoadSurvival`：可进行基础回合推进（搜索、事件、修理、前进）并达成普通结局。
+- `IslandSurvival`：可读取并展示章节与结局（轻量展示模式）。
