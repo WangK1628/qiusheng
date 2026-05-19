@@ -57,3 +57,11 @@ python3 run_game.py
 说明：
 - `RoadSurvival`：可进行基础回合推进（搜索、事件、修理、前进）并达成普通结局。
 - `IslandSurvival`：可读取并展示章节与结局（轻量展示模式）。
+
+
+## 构建与打包
+
+详见 `Docs/BUILD_AND_PACKAGE.md`。
+
+- EXE: `bash scripts/build_exe.sh`
+- APK: `bash scripts/build_apk.sh`
