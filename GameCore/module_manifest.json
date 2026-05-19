@@ -1,0 +1,19 @@
+{
+  "modules": [
+    "CharacterController",
+    "CameraSystem",
+    "InventorySystem",
+    "ItemSystem",
+    "GatheringSystem",
+    "CraftingSystem",
+    "BuildingSystem",
+    "CombatSystem",
+    "AISystem",
+    "QuestSystem",
+    "EventSystem",
+    "SaveSystem",
+    "VersionSystem",
+    "UISystem"
+  ],
+  "notes": "通用底层模块；具体版本差异由 SurvivalVersions 配置驱动。"
+}

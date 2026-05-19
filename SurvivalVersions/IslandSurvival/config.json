@@ -1,0 +1,9 @@
+{
+  "versionId": "IslandSurvival",
+  "versionName": "荒岛求生",
+  "baseType": "Camp",
+  "survivalStats": ["Health", "Hunger", "Thirst", "Fatigue", "Infection"],
+  "dangerTypes": ["Beast", "Storm", "PoisonSnake", "Tide"],
+  "victoryCondition": "EscapeIsland",
+  "difficulty": 2
+}

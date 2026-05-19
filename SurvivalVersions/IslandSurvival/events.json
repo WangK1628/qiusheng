@@ -1,0 +1,7 @@
+{
+  "events": [
+    {"id": "storm_warning", "title": "暴风雨预警", "description": "海面突然起风，云层压低。", "options": ["加固营地", "继续外出"]},
+    {"id": "snake_grass", "title": "草丛异动", "description": "采集时发现草丛有毒蛇活动。", "options": ["绕行", "投石驱赶"]},
+    {"id": "drift_bottle", "title": "漂流瓶", "description": "海滩出现一只封口漂流瓶。", "options": ["打开", "收藏后离开"]}
+  ]
+}

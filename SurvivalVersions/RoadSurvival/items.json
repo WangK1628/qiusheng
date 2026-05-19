@@ -1,0 +1,9 @@
+{
+  "items": [
+    {"id": "wood", "name": "木材", "type": "resource"},
+    {"id": "metal_scrap", "name": "铁片", "type": "resource"},
+    {"id": "fuel", "name": "燃油", "type": "resource"},
+    {"id": "water", "name": "净水", "type": "consumable"},
+    {"id": "dried_food", "name": "干粮", "type": "consumable"}
+  ]
+}

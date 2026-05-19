@@ -1,0 +1,7 @@
+{
+  "npcs": [
+    {"id": "npc_mechanic_laoqin", "name": "老秦", "role": "修理工", "location": "service_area", "trait": "谨慎、重交易"},
+    {"id": "npc_scout_ning", "name": "宁", "role": "侦察兵", "location": "toll_station", "trait": "警惕、讨厌劫匪"},
+    {"id": "npc_medic_yun", "name": "芸", "role": "医务员", "location": "toll_station", "trait": "理性、关注感染"}
+  ]
+}
