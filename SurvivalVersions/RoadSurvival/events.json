@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": "abandoned_car",
+      "title": "废弃车辆",
+      "description": "路边有一辆废弃车辆，可能有可用零件。",
+      "options": ["搜索", "离开"]
+    },
+    {
+      "id": "night_beast",
+      "title": "夜晚兽群",
+      "description": "夜色降临，远处传来兽吼。",
+      "options": ["加速离开", "原地防守"]
+    }
+  ]
+}
