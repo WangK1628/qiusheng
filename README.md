@@ -63,5 +63,9 @@ python3 run_game.py
 
 详见 `Docs/BUILD_AND_PACKAGE.md`。
 
+- Windows EXE: `scripts\build_exe.bat`
+- Windows APK: `scripts\build_apk_windows.bat`
+- Linux/macOS EXE: `bash scripts/build_exe.sh`
+- Linux/macOS APK: `bash scripts/build_apk.sh`
 - EXE: `bash scripts/build_exe.sh`
 - APK: `bash scripts/build_apk.sh`
